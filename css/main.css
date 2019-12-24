@@ -1,0 +1,114 @@
+@import url(../css/fonts.css);
+.container {
+  max-width: 905px;
+}
+
+header {
+  background: url(../img/bg.png);
+  padding-top: 20px;
+}
+
+.social {
+  margin-left: 8%;
+}
+
+.social .social-item a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  padding-top: 4px;
+  margin: 3px;
+  background-color: #232F23;
+  color: #FFF;
+  border-radius: 50%;
+}
+
+.social .social-item a:hover {
+  color: #000;
+  background-color: #FFF;
+}
+
+.navbar-nav .nav-item {
+  margin: 10px;
+}
+
+.navbar-nav .nav-item a {
+  font: 16px PTSansBold, sans-serif;
+  text-decoration: none;
+  padding: 3px;
+  text-transform: uppercase;
+  color: #256988;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #D92058;
+}
+
+h2 {
+  margin-top: 93px;
+  text-align: center;
+  font: 53px Trebuchet MS Bold, sans-serif;
+  color: #256988;
+}
+
+.btn {
+  display: inline-block;
+  font: 26px Trebuchet MS Bold, sans-serif;
+  padding-bottom: 46px;
+}
+
+#main {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+#main .description {
+  font: 15px ArialMT, sans-serif;
+  color: #256988;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#main .description span {
+  font-weight: bold;
+}
+
+#main h3 {
+  font: 19px Trebuchet MS Regular, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 8.94px;
+  color: #256988;
+  margin-bottom: 39px;
+}
+
+#main .courses-item {
+  margin: 10px 0;
+}
+
+#main .course-head {
+  padding: 0;
+  margin: 0;
+  font: 28px Trebuchet MS Regular, sans-serif;
+  color: #F03178;
+}
+
+#main p {
+  font: 13px ArialMT, sans-serif;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font: 11px ArialBold MT, sans-serif;
+  color: #256988;
+  text-transform: uppercase;
+}
+
+.nav-item a:hover {
+  color: #D92058;
+}
+
+.nav-item p {
+  font: 11px ArialMT, sans-serif;
+  color: #256988;
+}
